@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--https://www.cssfontstack.com for fonts and their usage rates-->
+<!--https://fonts.google.com for font embedding-->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sebastian Molano</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@500&family=Noto+Sans+JP&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@500&family=Noto+Sans+JP&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="top-container">
+    <h1 class="header">Sebastian Molano</h1>
+    <!--A span selects one part of the text to format it. It's an inline display element (which means it only takes as much space as it needs)-->
+    <p class="funky">Estudiante de Ingeniería de Sistemas</p>
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img src="assets/personal.png.png" alt="personal img">
+      <h2>Hola!</h2>
+      <p>Soy Sebastián Molano Fragale, estudiante de Ingeniería de Sistemas de la Pontificia Universidad Javeriana - Colombia.
+        Soy un trabajador apasionado que se esfuerza por hacer las cosas bien y de la mejor manera. Nunca me quedo quieto cuando se trata de aprender,
+        me gusta explorar nuevas tecnologías y mantenerme actualizado en las innovaciones relacionadas a mi carrera. 
+      </p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>Habilidades</h2>
+      <div class="skill-row">
+        <img class="circle-image" src="https://cdn.freelogovectors.net/svg05/java-logo.svg" alt="programming">
+        <h3>Programación</h3>
+        <p>Experiencia trabajando con lenguajes de programación como Java, C++, C#, Python y JavaScript. Así como lenguajes web como HTML y CSS.</p>
+      </div>
+      <div class="skill-row">
+        <img class="circle-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx8JUnDCPMmInCFMDk_dCjvEBAMI0Z8tQC1g&usqp=CAU" alt="">
+        <h3>Inglés</h3>
+        <p class="non-wrap">Capacidad de hablar inglés fluido nivel C1 clasificado por el examen internacional TOEFL en el año 2017.</p>
+      </div>
+    </div>    
+    <div class="skills">
+      <h2>Educación</h2>
+      <div class="skill-row">
+        <img class="circle-image" src="https://losmejorescolegios.com/wp-content/uploads/2018/09/Liceo-Boston.png">
+        <h3>Escuela Bachillerato</h3>
+        <p class="non-wrap">Graduado en el año 2017 del colegio <a href="https://www.liceoboston.edu.co" target="_blank"> Liceo Boston </a> - Bogotá.</p>
+      </div>
+      <div class="skill-row">
+        <img class="circle-image" src="http://www.acofi.edu.co/eiei2018/wp-content/uploads/2018/06/Logo-Pontificia-Universidad-Javeriana.jpg">
+        <h3>Estudios Universitarios</h3>
+        <p class="non-wrap">Actualmente cursando la carrera de Ingeniería de Sistemas en la <a href="https://www.javeriana.edu.co/inicio" target="_blank">Pontificia Universidad Javeriana</a> desde el año 2019 próximo a graduación.</p>
+      </div>
+    </div>
+    <div class="skills">
+      <h2>Certificados y Extras</h2>
+      <div class="skill-row">
+        <img class="circle-image" src="https://yt3.ggpht.com/ytc/AKedOLQnZzMbKSGzq2YCdwjZN_Iqu9aZFtayFCpoos-Usg=s900-c-k-c0x00ffffff-no-rj" alt="programming">
+        <h3>Sabana Hack 2021</h3>
+        <p>Ganador del reto Everis en la competencia hackatón organizada por la Universidad de la Sabana Bogotá, Sabana Hack 2021</p>
+      </div>
+      <div class="skill-row">
+        <img class="circle-image" src="data:image/png;base64,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" alt="programming">
+        <h3>Producción Musical</h3>
+        <p>Certificado en producción musical de la academia djacademy Bogotá (2018) </p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="bottom-container">
+    <hr>
+    <div class="contact-me">
+      <h2>Vínculos</h2>
+    </div>
+    <a class="footer-link" target="_blank" href="https://github.com/SMFragale">GitHub</a>
+    <p>© 2021 Sebastián Molano.</p>
+  </div>
+
+</body>
+
+</html>
