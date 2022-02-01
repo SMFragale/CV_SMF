@@ -1,0 +1,92 @@
+/* override browser default */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* include border and padding in element width and height */
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,5,48,1) 35%);
+    font-family: sans-serif;
+}
+
+.CV {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    height: 90em;
+}
+
+.Title {
+    color: white;
+    background-color: #464655;
+    text-align: center;
+    padding: 1%
+}
+
+.Side {
+    padding-top: 10%;
+    padding: 10% 5% 10% 5%;
+    text-align: center;
+    float: left;
+    width: 30%;
+    background-color: #2B193D;
+    display: inline;
+    color: white;
+    margin-right: 5%;
+    border-bottom-right-radius: 20%;
+}
+
+.Side img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+
+.Content {
+    height: 100%;
+    padding: 5%;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.tech {
+   margin: 0; 
+   padding: 0;
+}
+* {box-sizing:border-box}
+ .container {
+   width: 80%; 
+   background-color: #ddd;
+ }
+.skills {
+   text-align: right; 
+   padding-top: 0.5em; 
+   padding-bottom: 0.5em; 
+   color: white; 
+ }
+ 
+ .java {width: 90%; background-color: #61358d;} 
+ .cpp {width: 80%; background-color: #61358d;}
+ .cs {width: 50%; background-color: #61358d;}
+
+ .python {width: 70%; background-color: #61358d;} 
+ .js {width: 50%; background-color: #61358d;}
