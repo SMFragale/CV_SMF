@@ -5,6 +5,22 @@ body {
   padding: 0;
 }
 
+p {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+ul {
+  line-height: 1.8;
+}
+
+.circ_img {
+  margin-top: 3%;
+  border-radius: 100%;
+  width: 18%;
+  position: relative;
+}
+
 
 /* include border and padding in element width and height */
 * {
@@ -21,36 +37,14 @@ body {
     background-color: white;
     width: 80%;
     margin: 0 auto;
-    height: 90em;
+    height: 100%;
 }
 
 .Title {
     color: white;
     background-color: #464655;
     text-align: center;
-    padding: 1%
-}
-
-.Side {
-    padding-top: 10%;
-    padding: 10% 5% 10% 5%;
-    text-align: center;
-    float: left;
-    width: 30%;
-    background-color: #2B193D;
-    display: inline;
-    color: white;
-    margin-right: 5%;
-    border-bottom-right-radius: 20%;
-}
-
-.Side img {
-    width: 70%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 100%;
+    padding-bottom: 2%;
 }
 
 
